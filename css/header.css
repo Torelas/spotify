@@ -1,0 +1,66 @@
+
+#barra-lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 20rem;
+    background-image: linear-gradient(to bottom, #301925 ,#160B11 70% );
+    color: #938A8F;
+    padding: 2rem;
+} 
+.logospotfy{
+    height: 4rem;
+    padding-bottom: 1rem;
+}
+header > #barra-lateral > div ul li a{
+    color:#938A8F;
+}
+.lista1 li{
+    padding: .4rem;
+}
+.lis{
+        font-size: 1.4rem;
+}
+header > #barra-lateral > div >ul> #nome-verde a {
+    color: #65ca65;
+}
+.search{
+    height: 2.5rem;
+}
+/*=========================Parte de baixo===========================*/
+#header-bottom{
+    margin-bottom: 10rem;
+}
+.position{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lista2 li{
+    padding: .4rem;
+}
+header > #barra-lateral >  #header-bottom > ul li {
+    color:#938A8F;
+}
+.down{
+    height: 2.5rem;   
+}
+.perfil{
+    height: 3rem;
+    border-radius: 100%;
+}
+header > #barra-lateral >  #header-bottom > ul > .position >#nome{
+    color: white;
+    margin-right: 4.9rem;
+}
+/*=======================================480px===================================================*/
+@media (max-width: 480px){
+    #barra-lateral{
+        width: 10rem;
+        padding: 0;
+        height:100%;
+    }
+  
+}
+
